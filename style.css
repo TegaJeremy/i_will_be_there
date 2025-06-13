@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #000000, #003300);
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+#flyerCanvas {
+  border: 2px solid #fff;
+  margin-top: 20px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: gold;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+.uploader {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  font-size: 16px;
+}
